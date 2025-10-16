@@ -13,6 +13,7 @@ class BuggyController extends AbstractController
     {
         return $this->json($this->getData());
     }
+
     /**
      * @return array<string, number>
      */
